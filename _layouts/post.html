@@ -1,17 +1,12 @@
 ---
 layout: default
 ---
-
-<article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
+<article class="post prose">
+  <header class="post-header">
+    <p class="eyebrow">{{ page.date | date: "%B %-d, %Y" }}{% if page.category %} · {{ page.category | replace: "-", " " }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+  </header>
+  {{ content }}
+  {% if page.tags.size > 0 %}<footer class="post-footer"><p class="eyebrow">Tags</p><ul class="tag-list">{% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}</ul></footer>{% endif %}
 </article>
