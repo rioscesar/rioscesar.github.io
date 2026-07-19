@@ -3,7 +3,8 @@
 ## Current
 
 The engineering lifecycle is represented by draft PRs and is ready for human
-review. The rebuild is PR #3; its stacked lifecycle alignment is PR #4.
+review. The rebuild is PR #3, its stacked lifecycle alignment is PR #4, and
+the dark editorial theme is PR #5.
 
 ## Done
 
@@ -12,11 +13,12 @@ review. The rebuild is PR #3; its stacked lifecycle alignment is PR #4.
 - Audited the rebuild against the canonical engineering lifecycle at D:\AGENTS.md.
 - Added and verified the lifecycle safety scan and its positive/negative controls.
 - Opened rebuild draft PR #3 and stacked lifecycle draft PR #4.
+- Added the dark editorial theme on stacked draft PR #5.
 
 ## Next
 
-Review and approve the rebuild draft PR first, then review the stacked lifecycle
-draft PR. Do not merge automatically.
+Review and approve the rebuild draft PR first, then the lifecycle draft PR, and
+finally the dark-theme draft PR. Do not merge automatically.
 
 ## Decisions
 
@@ -27,3 +29,5 @@ draft PR. Do not merge automatically.
 - The GitHub integration can push branches but cannot create pull requests.
   GitHub CLI works after gh auth login --hostname github.com --git-protocol https
   --web; use it for future PR creation and verify with gh auth status.
+- A dark default with a system light-mode fallback delivers the requested
+  developer-friendly appearance without JavaScript or a persistent theme setting.
