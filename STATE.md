@@ -2,10 +2,8 @@
 
 ## Current
 
-Engineering-lifecycle alignment is implemented and pushed on
-codex/align-engineering-lifecycle. Draft PR creation is blocked because the
-connected GitHub integration returned 403 Resource not accessible by
-integration.
+The engineering lifecycle is represented by draft PRs and is ready for human
+review. The rebuild is PR #3; its stacked lifecycle alignment is PR #4.
 
 ## Done
 
@@ -13,12 +11,12 @@ integration.
 - Added GitHub Pages validation and deployment workflows.
 - Audited the rebuild against the canonical engineering lifecycle at D:\AGENTS.md.
 - Added and verified the lifecycle safety scan and its positive/negative controls.
+- Opened rebuild draft PR #3 and stacked lifecycle draft PR #4.
 
 ## Next
 
-Create the stacked draft PR from codex/align-engineering-lifecycle into
-feat/rebuild-engineering-blog at:
-https://github.com/rioscesar/rioscesar.github.io/pull/new/codex/align-engineering-lifecycle
+Review and approve the rebuild draft PR first, then review the stacked lifecycle
+draft PR. Do not merge automatically.
 
 ## Decisions
 
@@ -26,6 +24,6 @@ https://github.com/rioscesar/rioscesar.github.io/pull/new/codex/align-engineerin
   repository; this file is the repository-local continuity record they require.
 - The safety scan uses high-signal patterns only. It is intentionally small and
   supplements, rather than replaces, GitHub secret scanning and human review.
-- The GitHub integration can push branches but cannot create pull requests; use
-  the GitHub web link above or grant pull-request write permission before the
-  next implementation handoff.
+- The GitHub integration can push branches but cannot create pull requests.
+  GitHub CLI works after gh auth login --hostname github.com --git-protocol https
+  --web; use it for future PR creation and verify with gh auth status.
