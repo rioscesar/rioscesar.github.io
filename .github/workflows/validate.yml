@@ -13,6 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Verify safety scan controls
+        shell: pwsh
+        run: ./test/Test-SafetyScan.ps1
+      - name: Scan pull request diff
+        shell: bash
+        run: |
+          git diff --no-ext-diff --unified=0 "origin/${{ github.base_ref }}...HEAD" > lifecycle.diff
+          pwsh -File ./scripts/Invoke-SafetyScan.ps1 -DiffPath lifecycle.diff
       - uses: actions/configure-pages@v5
         id: pages
       - uses: actions/jekyll-build-pages@v1
