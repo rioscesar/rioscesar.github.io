@@ -18,14 +18,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
+      - uses: actions/checkout@v6
       - uses: actions/configure-pages@v5
         id: pages
-      - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+          base_path: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
   deploy:
