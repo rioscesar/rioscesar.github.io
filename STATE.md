@@ -2,21 +2,23 @@
 
 ## Current
 
-Engineering-lifecycle alignment is in progress on the branch
-codex/align-engineering-lifecycle. The implementation adds a deterministic
-safety scan, its controlled self-test, and a continuity record without changing
-the public site.
+Engineering-lifecycle alignment is implemented and pushed on
+codex/align-engineering-lifecycle. Draft PR creation is blocked because the
+connected GitHub integration returned 403 Resource not accessible by
+integration.
 
 ## Done
 
 - Rebuilt the legacy Jekyll Now site on feat/rebuild-engineering-blog.
 - Added GitHub Pages validation and deployment workflows.
 - Audited the rebuild against the canonical engineering lifecycle at D:\AGENTS.md.
+- Added and verified the lifecycle safety scan and its positive/negative controls.
 
 ## Next
 
-Run the safety-scan controls, validate the changed-file scope and Jekyll
-workflow, then open a stacked draft PR against feat/rebuild-engineering-blog.
+Create the stacked draft PR from codex/align-engineering-lifecycle into
+feat/rebuild-engineering-blog at:
+https://github.com/rioscesar/rioscesar.github.io/pull/new/codex/align-engineering-lifecycle
 
 ## Decisions
 
@@ -24,3 +26,6 @@ workflow, then open a stacked draft PR against feat/rebuild-engineering-blog.
   repository; this file is the repository-local continuity record they require.
 - The safety scan uses high-signal patterns only. It is intentionally small and
   supplements, rather than replaces, GitHub secret scanning and human review.
+- The GitHub integration can push branches but cannot create pull requests; use
+  the GitHub web link above or grant pull-request write permission before the
+  next implementation handoff.
