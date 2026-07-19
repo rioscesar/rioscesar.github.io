@@ -31,3 +31,5 @@ finally the dark-theme draft PR. Do not merge automatically.
   --web; use it for future PR creation and verify with gh auth status.
 - A dark default with a system light-mode fallback delivers the requested
   developer-friendly appearance without JavaScript or a persistent theme setting.
+- Safety-scan control tests must explicitly exit successfully after asserting an
+  expected failing child process; otherwise that child exit code can fail CI.
