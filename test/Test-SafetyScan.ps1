@@ -25,3 +25,7 @@ try {
 finally {
     Remove-Item -LiteralPath $workspace -Recurse -Force -ErrorAction SilentlyContinue
 }
+
+# The positive control intentionally invokes a failing child process. Return an
+# explicit success code after asserting that failure so it cannot leak into CI.
+exit 0
