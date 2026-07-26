@@ -2,9 +2,9 @@
 
 ## Current
 
-The public site foundation and dark theme are merged. A draft implementation PR
-now establishes a boundary between the public repository and private editorial
-article development.
+The public site foundation, dark theme, and private editorial-workspace boundary
+are merged. Article development remains private until a human approves a manual
+promotion into the public site.
 
 ## Done
 
@@ -16,12 +16,13 @@ article development.
   PR #7.
 - Kept durable public editorial standards in `notes/` while moving article
   development artifacts to the private editorial workspace.
+- Merged the editorial-workspace boundary through PR #8.
 
 ## Next
 
-Review the editorial-workspace boundary draft PR. Keep future evidence, drafts,
-and review material private until a human approves a manual promotion into
-`_posts/`. Do not merge automatically.
+Keep future evidence, drafts, and review material private until a human approves
+a manual promotion into `_posts/`. Start future public changes from `master` on a
+review branch; do not merge automatically.
 
 ## Decisions
 
