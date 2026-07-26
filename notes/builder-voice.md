@@ -2,6 +2,8 @@
 
 This blog is not about showing projects.
 
+The article is not the product. It is the artifact of understanding the project.
+
 It is about documenting how engineering judgment evolves.
 
 Every project begins with assumptions.
