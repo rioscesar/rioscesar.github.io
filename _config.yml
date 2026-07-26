@@ -29,6 +29,9 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
+  - scripts/
+  - test/
+  - STATE.md
 
 future: false
 unpublished: false

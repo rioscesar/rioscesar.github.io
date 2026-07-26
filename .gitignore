@@ -8,3 +8,12 @@ vendor/bundle/
 Thumbs.db
 .idea/
 .vscode/
+
+# Article-development artifacts belong in the private editorial workspace.
+/notes/article-draft-*.md
+/notes/article-outline*.md
+/notes/article-evidence*.md
+/notes/evidence*.md
+/notes/mental-models*.md
+/notes/story-brief*.md
+/notes/review*.md
