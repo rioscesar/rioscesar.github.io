@@ -24,9 +24,13 @@
    the approved publication copy.
 3. Transfer only approved, public-safe assets into the site's tracked asset
    directories; do not link or synchronize private workspace folders.
-4. Run the public repository's validation and safety checks, then open a draft
+4. Reconcile related project entries before opening the PR: add the article to
+   related-article links, replace verified repository placeholders, and update
+   relevant homepage project cards. Project status reflects the project itself,
+   not whether an article has been published.
+5. Run the public repository's validation and safety checks, then open a draft
    implementation PR for human review.
-5. Publishing remains a manual, human-approved step. No script or configuration
+6. Publishing remains a manual, human-approved step. No script or configuration
    automatically publishes editorial workspace material.
 
 ## Corrections after publication

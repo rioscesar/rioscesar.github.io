@@ -13,7 +13,7 @@ Projects are a useful record of decisions in motion. The writing is where their 
   <p>A controller-first interface that turns a Windows desktop into a living-room entertainment system.</p>
   <dl class="project-details">
     <div><dt>Status</dt><dd>In development</dd></div>
-    <div><dt>Repository</dt><dd><span class="muted">Repository link to be added</span></dd></div>
-    <div><dt>Related articles</dt><dd>Coming soon</dd></div>
+    <div><dt>Repository</dt><dd><a href="https://github.com/rioscesar/Living-Room-TV">Living Room TV repository</a></dd></div>
+    <div><dt>Related articles</dt><dd><a href="{{ '/writing/i-thought-i-was-building-a-launcher/' | relative_url }}">I Thought I Was Building a Launcher</a></dd></div>
   </dl>
 </section>
