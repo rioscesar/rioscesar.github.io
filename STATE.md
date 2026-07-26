@@ -2,9 +2,9 @@
 
 ## Current
 
-The engineering lifecycle is represented by draft PRs and is ready for human
-review. The rebuild is PR #3, its stacked lifecycle alignment is PR #4, and
-the dark editorial theme is PR #5.
+The public site foundation and dark theme are merged. A draft implementation PR
+now establishes a boundary between the public repository and private editorial
+article development.
 
 ## Done
 
@@ -12,13 +12,16 @@ the dark editorial theme is PR #5.
 - Added GitHub Pages validation and deployment workflows.
 - Audited the rebuild against the canonical engineering lifecycle at D:\AGENTS.md.
 - Added and verified the lifecycle safety scan and its positive/negative controls.
-- Opened rebuild draft PR #3 and stacked lifecycle draft PR #4.
-- Added the dark editorial theme on stacked draft PR #5.
+- Merged the rebuilt site, lifecycle alignment, and dark editorial theme through
+  PR #7.
+- Kept durable public editorial standards in `notes/` while moving article
+  development artifacts to the private editorial workspace.
 
 ## Next
 
-Review and approve the rebuild draft PR first, then the lifecycle draft PR, and
-finally the dark-theme draft PR. Do not merge automatically.
+Review the editorial-workspace boundary draft PR. Keep future evidence, drafts,
+and review material private until a human approves a manual promotion into
+`_posts/`. Do not merge automatically.
 
 ## Decisions
 
@@ -33,3 +36,5 @@ finally the dark-theme draft PR. Do not merge automatically.
   developer-friendly appearance without JavaScript or a persistent theme setting.
 - Safety-scan control tests must explicitly exit successfully after asserting an
   expected failing child process; otherwise that child exit code can fail CI.
+- Article development uses a one-way manual promotion flow: private workspace to
+  approved public post, never automatic synchronization or publishing.
