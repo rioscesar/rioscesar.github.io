@@ -8,3 +8,7 @@ vendor/bundle/
 Thumbs.db
 .idea/
 .vscode/
+
+# Local editorial drafts; publish approved work from _posts/ instead.
+/notes/article-draft-*.md
+/notes/article-outline*.md
