@@ -28,5 +28,4 @@ description: Engineering notes from Cesar Rios.
   <p class="eyebrow">In development</p>
   <h3><a href="{{ '/projects/' | relative_url }}#living-room-tv">Living Room TV</a></h3>
   <p>A controller-first interface that turns a Windows desktop into a living-room entertainment system.</p>
-  <p><a href="{{ '/writing/i-thought-i-was-building-a-launcher/' | relative_url }}">Read: I Thought I Was Building a Launcher</a></p>
 </div>
