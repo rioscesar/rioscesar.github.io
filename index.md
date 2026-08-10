@@ -29,3 +29,9 @@ description: Engineering notes from Cesar Rios.
   <h3><a href="{{ '/projects/' | relative_url }}#living-room-tv">Living Room TV</a></h3>
   <p>A controller-first interface that turns a Windows desktop into a living-room entertainment system.</p>
 </div>
+
+<div class="project-card">
+  <p class="eyebrow">Milestone 0 complete</p>
+  <h3><a href="{{ '/projects/' | relative_url }}#hlstr">HLSTR</a></h3>
+  <p>A career-assessment experiment focused on making engineering evidence and next-level readiness more legible.</p>
+</div>
