@@ -30,3 +30,9 @@ description: Engineering notes from Cesar Rios.
   <p>A controller-first interface that turns a Windows desktop into a living-room entertainment system.</p>
   <p><a href="{{ '/writing/i-thought-i-was-building-a-launcher/' | relative_url }}">Read: I Thought I Was Building a Launcher</a></p>
 </div>
+
+<div class="project-card">
+  <p class="eyebrow">Milestone 0 complete</p>
+  <h3><a href="{{ '/projects/' | relative_url }}#hlstr">HLSTR</a></h3>
+  <p>A career-assessment experiment focused on making engineering evidence and next-level readiness more legible.</p>
+</div>
