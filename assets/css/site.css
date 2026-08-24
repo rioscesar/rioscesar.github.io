@@ -89,6 +89,8 @@ p, ul, ol { margin-block: 1.25rem; }
 .prose pre { overflow-x: auto; padding: 1.25rem; border: 1px solid var(--line); background: var(--code); font-size: .85em; line-height: 1.55; }
 .prose :not(pre) > code { padding: .1em .35em; border-radius: .18rem; background: var(--surface-raised); font-size: .88em; }
 .prose img { max-width: 100%; height: auto; }
+.prose .mermaid { margin-block: 2.5rem; overflow-x: auto; }
+.prose .mermaid svg { display: block; max-width: 100%; height: auto; margin-inline: auto; }
 .post-footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
 .tag-list { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; list-style: none; font-family: ui-sans-serif, system-ui, sans-serif; font-size: .82rem; }
 .tag-list li { padding: .2rem .55rem; border: 1px solid var(--line); background: var(--surface); }

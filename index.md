@@ -35,3 +35,9 @@ description: Engineering notes from Cesar Rios.
   <h3><a href="{{ '/projects/' | relative_url }}#hlstr">HLSTR</a></h3>
   <p>A career-assessment experiment focused on making engineering evidence and next-level readiness more legible.</p>
 </div>
+
+<div class="project-card">
+  <p class="eyebrow">Milestone 1 complete</p>
+  <h3><a href="{{ '/projects/' | relative_url }}#trustclaw">TrustClaw</a></h3>
+  <p>An experimental trust plane for autonomous actions, built around deterministic policy, request-bound approval, and verifiable evidence.</p>
+</div>

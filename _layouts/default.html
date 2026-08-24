@@ -17,5 +17,38 @@
   </div></header>
   <main class="shell" id="main-content">{{ content }}</main>
   <footer class="site-footer"><div class="shell"><p>© {{ site.time | date: "%Y" }} {{ site.title }}. Built with Jekyll.</p></div></footer>
+  {% if page.mermaid %}
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.12.1/dist/mermaid.esm.min.mjs";
+
+    const isLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+    mermaid.initialize({
+      startOnLoad: true,
+      securityLevel: "strict",
+      theme: "base",
+      themeVariables: isLight
+        ? {
+            background: "#f1f0ec",
+            primaryColor: "#e9e8e4",
+            primaryTextColor: "#17222c",
+            primaryBorderColor: "#155f96",
+            lineColor: "#155f96",
+            secondaryColor: "#e1e3e5",
+            tertiaryColor: "#e9e8e4",
+            edgeLabelBackground: "#f1f0ec",
+          }
+        : {
+            background: "#1e1e1e",
+            primaryColor: "#252526",
+            primaryTextColor: "#f1f3f5",
+            primaryBorderColor: "#8cc6ff",
+            lineColor: "#8cc6ff",
+            secondaryColor: "#2d2d30",
+            tertiaryColor: "#252526",
+            edgeLabelBackground: "#1e1e1e",
+          },
+    });
+  </script>
+  {% endif %}
 </body>
 </html>
