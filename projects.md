@@ -18,6 +18,17 @@ Projects are a useful record of decisions in motion. The writing is where their 
   </dl>
 </section>
 
+<section class="project-card" id="trustclaw" aria-labelledby="trustclaw-title">
+  <p class="eyebrow">Milestone 1 complete</p>
+  <h2 id="trustclaw-title">TrustClaw</h2>
+  <p>An experimental trust plane for autonomous actions, built around deterministic policy, request-bound approval, and verifiable evidence.</p>
+  <dl class="project-details">
+    <div><dt>Status</dt><dd>Milestone 1 complete; production integrations deferred</dd></div>
+    <div><dt>Repository</dt><dd><a href="https://github.com/rioscesar/trustclaw">TrustClaw repository</a></dd></div>
+    <div><dt>Related articles</dt><dd><a href="{{ '/writing/can-we-trust-autonomous-systems/' | relative_url }}">Can We Trust Autonomous Systems?</a></dd></div>
+  </dl>
+</section>
+
 <section class="project-card" id="hlstr" aria-labelledby="hlstr-title">
   <p class="eyebrow">Milestone 0 complete</p>
   <h2 id="hlstr-title">HLSTR</h2>
