@@ -25,6 +25,12 @@ description: Engineering notes from Cesar Rios.
 ## Selected projects
 
 <div class="project-card">
+  <p class="eyebrow">Operational</p>
+  <h3><a href="{{ '/projects/' | relative_url }}#engineering-journal">Engineering Journal</a></h3>
+  <p>A public engineering journal with a private editorial workflow for preserving the reasoning behind finished projects.</p>
+</div>
+
+<div class="project-card">
   <p class="eyebrow">In development</p>
   <h3><a href="{{ '/projects/' | relative_url }}#living-room-tv">Living Room TV</a></h3>
   <p>A controller-first interface that turns a Windows desktop into a living-room entertainment system.</p>
