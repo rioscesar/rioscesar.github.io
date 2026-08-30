@@ -7,6 +7,17 @@ permalink: /projects/
 
 Projects are a useful record of decisions in motion. The writing is where their reasoning will be documented.
 
+<section class="project-card" id="engineering-journal" aria-labelledby="engineering-journal-title">
+  <p class="eyebrow">Operational</p>
+  <h2 id="engineering-journal-title">Engineering Journal</h2>
+  <p>A public engineering journal with a private editorial workflow for preserving the reasoning behind finished projects.</p>
+  <dl class="project-details">
+    <div><dt>Status</dt><dd>Operational; continuing to evolve</dd></div>
+    <div><dt>Repository</dt><dd><a href="https://github.com/rioscesar/rioscesar.github.io">Engineering Journal repository</a></dd></div>
+    <div><dt>Related articles</dt><dd><a href="{{ '/writing/building-an-engineering-journal/' | relative_url }}">Building an Engineering Journal</a></dd></div>
+  </dl>
+</section>
+
 <section class="project-card" id="living-room-tv" aria-labelledby="living-room-tv-title">
   <p class="eyebrow">In development</p>
   <h2 id="living-room-tv-title">Living Room TV</h2>
