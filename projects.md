@@ -18,6 +18,17 @@ Projects are a useful record of decisions in motion. The writing is where their 
   </dl>
 </section>
 
+<section class="project-card" id="backburner" aria-labelledby="backburner-title">
+  <p class="eyebrow">Early release</p>
+  <h2 id="backburner-title">Backburner</h2>
+  <p>An extension for revisiting forgotten Chrome bookmarks and deciding what is still worth your attention.</p>
+  <dl class="project-details">
+    <div><dt>Status</dt><dd>Early release</dd></div>
+    <div><dt>Repository</dt><dd><a href="https://github.com/rioscesar/Backburner">Backburner repository</a></dd></div>
+    <div><dt>Related articles</dt><dd><a href="{{ '/writing/a-good-spec-can-preserve-the-wrong-assumption/' | relative_url }}">A Good Spec Can Preserve the Wrong Assumption</a></dd></div>
+  </dl>
+</section>
+
 <section class="project-card" id="living-room-tv" aria-labelledby="living-room-tv-title">
   <p class="eyebrow">In development</p>
   <h2 id="living-room-tv-title">Living Room TV</h2>
