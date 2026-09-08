@@ -25,24 +25,6 @@ description: Engineering notes from Cesar Rios.
 ## Selected projects
 
 <div class="project-card">
-  <p class="eyebrow">Operational</p>
-  <h3><a href="{{ '/projects/' | relative_url }}#engineering-journal">Engineering Journal</a></h3>
-  <p>A public engineering journal with a private editorial workflow for preserving the reasoning behind finished projects.</p>
-</div>
-
-<div class="project-card">
-  <p class="eyebrow">Early release</p>
-  <h3><a href="{{ '/projects/' | relative_url }}#backburner">Backburner</a></h3>
-  <p>An extension for revisiting forgotten Chrome bookmarks and deciding what is still worth your attention.</p>
-</div>
-
-<div class="project-card">
-  <p class="eyebrow">In development</p>
-  <h3><a href="{{ '/projects/' | relative_url }}#living-room-tv">Living Room TV</a></h3>
-  <p>A controller-first interface that turns a Windows desktop into a living-room entertainment system.</p>
-</div>
-
-<div class="project-card">
   <p class="eyebrow">Milestone 0 complete</p>
   <h3><a href="{{ '/projects/' | relative_url }}#hlstr">HLSTR</a></h3>
   <p>A career-assessment experiment focused on making engineering evidence and next-level readiness more legible.</p>
@@ -52,4 +34,10 @@ description: Engineering notes from Cesar Rios.
   <p class="eyebrow">Milestone 1 complete</p>
   <h3><a href="{{ '/projects/' | relative_url }}#trustclaw">TrustClaw</a></h3>
   <p>An experimental trust plane for autonomous actions, built around deterministic policy, request-bound approval, and verifiable evidence.</p>
+</div>
+
+<div class="project-card">
+  <p class="eyebrow">Early release</p>
+  <h3><a href="{{ '/projects/' | relative_url }}#backburner">Backburner</a></h3>
+  <p>An extension for revisiting forgotten Chrome bookmarks and deciding what is still worth your attention.</p>
 </div>
