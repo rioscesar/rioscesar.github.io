@@ -31,6 +31,12 @@ description: Engineering notes from Cesar Rios.
 </div>
 
 <div class="project-card">
+  <p class="eyebrow">Early release</p>
+  <h3><a href="{{ '/projects/' | relative_url }}#backburner">Backburner</a></h3>
+  <p>An extension for revisiting forgotten Chrome bookmarks and deciding what is still worth your attention.</p>
+</div>
+
+<div class="project-card">
   <p class="eyebrow">In development</p>
   <h3><a href="{{ '/projects/' | relative_url }}#living-room-tv">Living Room TV</a></h3>
   <p>A controller-first interface that turns a Windows desktop into a living-room entertainment system.</p>
