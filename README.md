@@ -11,11 +11,11 @@ The site is a deliberately small [Jekyll](https://jekyllrb.com/) site hosted on 
 Install a current Ruby with Bundler, then run:
 
 ```sh
-bundle install
-bundle exec jekyll serve
+pwsh -NoProfile -File .\scripts\Invoke-LocalValidation.ps1
 ```
 
-Open <http://localhost:4000>. To preview an unpublished draft in `_drafts/`, use `bundle exec jekyll serve --drafts`.
+The validation script installs the declared bundle, builds the site, and runs the safety-scan controls. On Windows it also loads the timezone data Jekyll needs.
+To preview the site after validation, add `-Serve` to the command and open <http://localhost:4000>.
 
 ## Writing and publishing
 

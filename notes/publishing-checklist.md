@@ -12,7 +12,7 @@
 - [ ] The article has had a confidentiality review.
 - [ ] Microsoft attribution and disclosure are appropriate; no confidential information is included.
 - [ ] AI supports the story instead of becoming the story.
-- [ ] The local build passes.
+- [ ] `pwsh -NoProfile -File .\scripts\Invoke-LocalValidation.ps1` passes.
 - [ ] CI passes.
 - [ ] A human has signed off on the final draft.
 

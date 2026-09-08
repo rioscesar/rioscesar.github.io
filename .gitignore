@@ -3,6 +3,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .bundle
+Gemfile.lock
 .sass-cache/
 vendor/bundle/
 Thumbs.db
