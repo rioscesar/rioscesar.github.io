@@ -7,6 +7,17 @@ permalink: /projects/
 
 Projects are a useful record of decisions in motion. The writing is where their reasoning will be documented.
 
+<section class="project-card" id="a-sdlc" aria-labelledby="a-sdlc-title">
+  <p class="eyebrow">In use</p>
+  <h2 id="a-sdlc-title">a-sdlc</h2>
+  <p>An installed engineering workflow with skills for starting, planning, reviewing, verifying, and shipping work across repositories.</p>
+  <dl class="project-details">
+    <div><dt>Status</dt><dd>In use; continuing to evolve</dd></div>
+    <div><dt>Distribution</dt><dd>Available through the private ai-systems marketplace.</dd></div>
+    <div><dt>Related articles</dt><dd><a href="{{ '/writing/from-markdown-files-to-an-engineering-system/' | relative_url }}">From Markdown Files to an Engineering System</a></dd></div>
+  </dl>
+</section>
+
 <section class="project-card" id="engineering-journal" aria-labelledby="engineering-journal-title">
   <p class="eyebrow">Operational</p>
   <h2 id="engineering-journal-title">Engineering Journal</h2>
